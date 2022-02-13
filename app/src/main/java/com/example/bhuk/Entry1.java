@@ -24,7 +24,7 @@ public class Entry1 extends AppCompatActivity {
         donate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(Entry1.this,Entry2.class);
+                Intent i = new Intent(Entry1.this,MainActivity.class);
                 i.putExtra("donate",1);
                 i.putExtra("receive", 0);
                 startActivity(i);
@@ -34,11 +34,12 @@ public class Entry1 extends AppCompatActivity {
         receive.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(Entry1.this,Entry2.class);
+                Intent i = new Intent(Entry1.this,MainActivity.class);
                 i.putExtra("donate",0);
                 i.putExtra("receive", 1);
                 startActivity(i);
             }
         });
+
     }
 }

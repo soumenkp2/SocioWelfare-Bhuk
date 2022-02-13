@@ -42,7 +42,7 @@
                     android:layout_marginTop="12dp"
                     android:layout_toRightOf="@+id/backbutton"
                     android:fontFamily="@font/poppins_medium"
-                    android:text="SampannBalance"
+                    android:text="Bhuk Balance"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -83,7 +83,7 @@
                         android:layout_marginEnd="5dp"
                         android:layout_weight="0.55"
                         android:fontFamily="@font/poppins_semibold"
-                        android:text="Sampannata"
+                        android:text="Bhuk Points"
                         android:textColor="#0A423C"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -143,7 +143,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
                 android:fontFamily="@font/poppins_medium"
-                android:text="Easily Maintain\nYour SampannBalance.."
+                android:text="Easily Maintain\nYour Bhuk Balance.."
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 

@@ -22,6 +22,8 @@ public class home extends Fragment {
     GridLayout grid1, grid2, grid3, grid4, grid5, grid6, grid7;
     LinearLayout sociomoney;
 
+    LinearLayout food;
+
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -67,6 +69,15 @@ public class home extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_home, container, false);
+
+        food = (LinearLayout) view.findViewById(R.id.food);
+        food.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getContext(), Entry2.class);
+                startActivity(i);
+            }
+        });
 
         NGO = (TextView) view.findViewById(R.id.NGO);
         orphanage = (TextView) view.findViewById(R.id.orphanages);
