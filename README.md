@@ -32,7 +32,7 @@ Not just our app provides a platform for the NGO s, old age homes to make their 
 First, clone the repository with the 'clone' command, or just download the zip.
 
 ```
-$ git clone https://github.com/soumenkp2/resume_builder.git
+$ git clone https://github.com/soumenkp2/SocioWelfare-Bhuk.git
 ```
 
 Then, download either Android Studio , 
