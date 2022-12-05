@@ -35,8 +35,7 @@ First, clone the repository with the 'clone' command, or just download the zip.
 $ git clone https://github.com/soumenkp2/SocioWelfare-Bhuk.git
 ```
 
-Then, download either Android Studio , 
-for more refer 
+Then, download Android Studio , 
 There you go, you can now open & edit the project. Enjoy!
 
 ## Built with
