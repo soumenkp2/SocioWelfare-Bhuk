@@ -25,14 +25,14 @@
             android:id="@+id/homebtn"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/homepageoutline"
+            android:src="@drawable/homepage"
             android:layout_weight="1"/>
 
         <ImageView
             android:id="@+id/req_accepted"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/approvedoutline"
+            android:src="@drawable/approvedcolour"
             android:layout_weight="1"/>
 
 
